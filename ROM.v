@@ -1,4 +1,4 @@
-module ROM_lab5(data,clock,cs,re_en,addr);
+module ROM(data,clock,cs,re_en,addr);
 output reg [7:0] data;
 input clock,cs,re_en;
 input [6:0]addr;
